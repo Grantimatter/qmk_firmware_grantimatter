@@ -5,9 +5,15 @@
     // Configure glob patterns for excluding files and folders.
     "files.exclude": {
         "**/.build": true,
-        "**/*.hex": true,
         "**/*.bin": true,
-        "**/*.uf2": true
+        "**/*.hex": true,
+        "**/*.uf2": true,
+        "**/keyboards/[^k]*": true,
+        "**/keyboards/k[^e]*": true,
+        "**/keyboards/ke[^e]*": true,
+        "**/keyboards/kee*[^o]": true,
+        "**/keyboards/keebio/[^i]*": true,
+        "**/keyboards/keebio/iris/*[^3]": true,
     },
     "files.associations": {
         "*.h": "c",
@@ -30,5 +36,6 @@
     },
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "cmake.configureOnOpen": false
 }
