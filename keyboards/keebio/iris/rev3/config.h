@@ -24,6 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* Adjust the tapping term */
+#define TAPPING_TERM    150
+
 /* ws2812 RGB LED */
 #define RGBLED_NUM 12    // Number of LEDs
 #define RGBLED_SPLIT { 6, 6 }
