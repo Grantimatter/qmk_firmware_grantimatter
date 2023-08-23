@@ -5,9 +5,24 @@
     // Configure glob patterns for excluding files and folders.
     "files.exclude": {
         "**/.build": true,
-        "**/*.hex": true,
         "**/*.bin": true,
-        "**/*.uf2": true
+        "**/*.hex": true,
+        "**/*.uf2": true,
+        "**/keyboards/[^k]*": true,
+        "**/keyboards/k[^e]*": true,
+        "**/keyboards/ke[^e]*": true,
+        "**/keyboards/kee*[^o]": true,
+        "**/keyboards/keebio/[^i]*": true,
+        "**/keyboards/keebio/iris/rev1/": true,
+        "**/keyboards/keebio/iris/rev1_led/": true,
+        "**/keyboards/keebio/iris/rev2/": true,
+        "**/keyboards/keebio/iris/rev4/": true,
+        "**/keyboards/keebio/iris/rev5/": true,
+        "**/keyboards/keebio/iris/rev6/": true,
+        "**/keyboards/keebio/iris/rev7/": true,
+        "**/keyboards/keebio/iris/rev8/": true,
+        "**/keyboards/keebio/iris/keymaps/[^g]*": true,
+        "**/keyboards/keebio/iris/keymaps/g[^r]*": true,
     },
     "files.associations": {
         "*.h": "c",
