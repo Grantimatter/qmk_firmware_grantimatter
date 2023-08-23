@@ -41,11 +41,8 @@
     },
     "python.formatting.provider": "yapf",
     "[json]": {
-        "editor.formatOnSave": false
+	    "editor.formatOnSave": false
     },
-    "clangd.arguments": [
-        "--header-insertion=never"
-    ],
-    "cmake.configureOnOpen": false,
-    "terminal.integrated.defaultProfile.windows": "QMK_MSYS"
+    "terminal.integrated.defaultProfile.windows": "QMK_MSYS",
+    "cmake.configureOnOpen": true
 }
