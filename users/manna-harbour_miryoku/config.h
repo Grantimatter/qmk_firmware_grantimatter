@@ -9,7 +9,7 @@
 
 // default but used in macros
 #undef TAPPING_TERM
-#define TAPPING_TERM 165
+#define TAPPING_TERM 160
 
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.

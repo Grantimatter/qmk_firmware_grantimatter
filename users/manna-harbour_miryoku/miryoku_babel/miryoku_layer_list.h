@@ -17,6 +17,8 @@ MIRYOKU_X(NAV,    "Nav") \
 MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
+MIRYOKU_X(GAME,   "Game") \
+MIRYOKU_X(GAME2,  "Game2") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun")
 

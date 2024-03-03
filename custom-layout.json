@@ -1,4 +1,7 @@
 {
+    "version": 1,
+  "notes": "",
+  "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
     "keyboard": "keebio/iris/rev3",
     "keymap": "manna-harbour_miryoku",
     "layers": [
@@ -13,5 +16,5 @@
         ["KC_LCBR", "KC_AMPR", "KC_ASTR", "KC_LPRN", "KC_RCBR", "KC_NO", "TD(U_TD_U_BASE)", "TD(U_TD_U_EXTRA)", "TD(U_TD_U_TAP)", "TD(U_TD_BOOT)", "KC_COLN", "KC_DLR", "KC_PERC", "KC_CIRC", "KC_PLUS", "KC_NO", "KC_LSFT", "KC_LCTL", "KC_LALT", "KC_LGUI", "KC_TILD", "KC_EXLM", "KC_AT", "KC_HASH", "KC_PIPE", "KC_NO", "TD(U_TD_U_SYM)", "TD(U_TD_U_MOUSE)", "KC_ALGR", "KC_NO", "KC_NO", "KC_NO", "KC_LPRN", "KC_RPRN", "KC_UNDS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO"],
         ["KC_F12", "KC_F7", "KC_F8", "KC_F9", "KC_PSCR", "KC_NO", "TD(U_TD_U_BASE)", "TD(U_TD_U_EXTRA)", "TD(U_TD_U_TAP)", "TD(U_TD_BOOT)", "KC_F11", "KC_F4", "KC_F5", "KC_F6", "KC_SCRL", "KC_NO", "KC_LSFT", "KC_LCTL", "KC_LALT", "KC_LGUI", "KC_F10", "KC_F1", "KC_F2", "KC_F3", "KC_PAUS", "KC_NO", "TD(U_TD_U_FUN)", "TD(U_TD_U_MEDIA)", "KC_ALGR", "KC_NO", "KC_NO", "KC_NO", "KC_APP", "KC_SPC", "KC_TAB", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO"]
     ],
-    "layout": "LAYOUT_miryoku"
+    "layout": "LAYOUT"
 }
